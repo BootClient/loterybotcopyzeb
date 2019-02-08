@@ -96,7 +96,7 @@ class Giveaway {
                 if (!this.winners.includes(x)) this.winners.push(x);
             }
 
-            embed.description = `Gagnant: ${this.winners.filter(u => u !== undefined && u !== null).map(u => u.toString()).join(", ")}`;
+            embed.description = `Gagnant(s): ${this.winners.filter(u => u !== undefined && u !== null).map(u => u.toString()).join(", ")}`;
             embed.footer.text = `${this.suffix} | Giveaway Finis`;
 
             this.msg.edit({ embed });
