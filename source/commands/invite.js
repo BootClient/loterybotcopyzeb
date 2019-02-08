@@ -9,6 +9,6 @@ module.exports = class extends Command {
 
     execute(message) {
         message.reply('Check tes dm. :wink:');
-        message.author.send(`Vous pouvez m'invitez ici: <https://discordapp.com/oauth2/authorize?client_id=${this.client.user.id}&scope=bot&permissions=388160>`);
+        message.author.send(`Vous pouvez m'invitez ici: <A MODIER AVEC LIEN OAUTH>`);
     }
 };
