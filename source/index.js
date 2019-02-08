@@ -28,7 +28,7 @@ new class extends Client {
             console.log(`Bot connecté sur ${this.guilds.size} discord, ${this.channels.size} channels, et ${this.users.size} utilisateurs.`);
 
             this.user.setActivity(`${this.config.prefix}help | ${this.guilds.size} Discord`);
-            setInterval(() => this.user.setActivity(`Zebulon | HectoniaGiveaways`), 1000 * 60 * 2);
+            setInterval(() => this.user.setActivity(`WaynStalker | Giveaways`), 1000 * 60 * 2);
 
             if (cache.length) cache.forEach(g => new Giveaway(this, null, g.match, g));
             this.clearCache();
