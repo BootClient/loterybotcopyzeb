@@ -8,7 +8,7 @@ module.exports = class extends Command {
     }
 
     execute(message) {
-        message.reply('Check tes dm. :wink:');
+        message.reply('Check tes messages privés :wink:.');
         message.author.send(`Vous pouvez m'invitez ici: <A MODIER AVEC LIEN OAUTH>`);
     }
 };
